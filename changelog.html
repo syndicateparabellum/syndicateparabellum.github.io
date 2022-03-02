@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Parabellum</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <link href="img/favicon.ico" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+
+<body>
+
+<table cellpadding="0" cellspacing="0" border="0" style="width:100%">
+<tr>
+<td id="breadcrumb">
+<a href="index.html">Parabellum</a> &nbsp;&#8250;&nbsp;
+Changelogs
+</td>
+</tr>
+</table>
+
+<br clear="all" />
+<ul>
+<div id="content"><h1>Changelogs</h1>
+
+<h2>Latest Version</h2>
+<br>
+
+<button class="collapsible">Version 0.0.17</button>
+<div class="content">
+<p>Release Date: 20/2/2020</p>
+<b><u>Addition</b></u><br>
+<ul>
+	<li>Added Catalyst map</li>
+</ul>
+<b><u>Changes</b></u><br>
+<ul>
+	<li>More optimized webservice calls</li>
+	<li>Fixed Server email confirmation/password reset bot</li>
+	<li>Fix game startup low resolution</li>
+	<li>Fixed lazer for weapons</li>
+	<li>Fixed weapon explosion not being rendered when shot vertically below</li>
+	<li>Fixed LP2 projectile issues with water</li>
+	<li>Fixed TDM Blue players and DM players in end game</li>
+	<li>Fixed dark screen bug</li>
+	<li>Added click sounds to buttons in ui (partially)</li>
+	<li>Removed TAA (temporarily until unity makes it better)</li>
+	<li>Reworked settings to match theme</li>
+	<li>Reworked Match join screen. Now shows the list of each player in a team</li>
+	<li>Fixed create match panel overlapping games behind it</li>
+</ul>
+</div>
+<br><hr><br>
+
+<h2>Previous Versions</h2>
+<button class="collapsible">Version 0.0.16a</button>
+<div class="content">
+<p>Release Date: 26/1/2020</p>
+<b><u>Improvement</b></u><br>
+<ul>
+	<li>Huge performance improvement. Stutters have been fixed</li>
+</ul>
+</div>
+<br>
+<button class="collapsible">Version 0.0.16</button>
+<div class="content">
+<p>Release Date: 26/1/2020</p>
+<b><u>Additions</b></u><br>
+<ul>
+	<li>Improved performance, reduced overall stutters</li>
+	<li>Few performance optimizations done for Lp2 and SPR</li>
+	<li>Overall performance improvement with multiple characters on screen</li>
+	<li>Added <kbd>Vsync</kbd> option seperately. High and Ultra settings no longer have inbuilt vsync. This should fix tearing when enabled</li>
+</ul>
+
+<b><u>Changes</b></u><br>
+<ul>
+	<li>Removed player outline</li>
+</ul>
+<b><u>Bug fixes</b></u><br>
+<ul>
+	<li>Fixed sky garden suicide</li>
+	<li>Fixed red jumppads</li>
+	<li>Fixed scaling for settings ui for wider monitors</li>
+	<li>Fixed ninja hair color issue</li>
+	<li>Fixed crashing issue (most probably, needs some more testing)</li>
+</ul>
+</div>
+<br>
+<button class="collapsible">Version 0.0.15</button>
+<div class="content">
+<p>Release Date: 26/1/2020</p>
+<b><u>Additions</b></u><br>
+<ul>
+	<li>Various performance improvements and optimizations</li>
+	<li>Added <kbd>Temple of the Raven</kbd>.</li>
+</ul>
+
+<b><u>Changes</b></u><br>
+<ul>
+	<li>Removed HDRI Sky option from Advanced Settings</li>
+</ul>
+<b><u>Bug fixes</b></u><br>
+<ul>
+	<li>Various source bug fixes. Build shouldn't crash much. Needs testing</li>
+</ul>
+</div>
+<br>
+
+<button class="collapsible">Version 0.0.14</button>
+<div class="content">
+<p>Release Date: 21/10/2020</p>
+<b><u>Additions</b></u><br>
+<ul>
+	<li>Added Discord rich presence toggle in settings</li>
+	<li>Discord RP shows <kbd>Playing Parabellum now</kbd>. Other map icons have been added aswell</li>
+	<li>Add new skippable game intro</li>
+	<li>Added tab indicator for chat</li>
+	<li>Opening chat chat box will show all the last 7 messages sent</li>
+	<li>Added map images in loading screen</li>
+	<li>Implemented new XP system. Theres no level 80 cap anymore</li>
+</ul>
+
+<b><u>Bug fixes</b></u><br>
+<ul>
+	<li>Fixed Killed by, You killed texts</li>
+	<li>Fixed discord rich presence error when discord isnt open when playing the game</li>
+	<li>Uber armor pickup when entering training mode in fortwinter</li>
+	<li>Reloading weapon while zooming leaves the camera at zoomed in state</li>
+	<li>Overlapping text for forgot password</li>
+	<li>Camera shake on damage receive and sound</li>
+	<li>Chat player is online even after leaving game</li>
+	<li>Being able to rotate player in home screen after leaving shop</li>
+	<li>Damage feedback on camera (camera shake when receiving damage)</li>
+</ul>
+</div>
+<br>
+<button class="collapsible">Version 0.0.13</button>
+<div class="content">
+<p>Release Date: 21/10/2020</p>
+<b><u>Additions</b></u><br>
+<ul>
+	<li>Added Skygarden</li>
+	<li>Added outline for characters in match. Green for allies, red for enemies</li>
+</ul>
+
+<b><u>Bug fixes</b></u><br>
+<ul>
+	<li>Weird & dark texture issue in weapons</li>
+	<li>Clan can sometimes go missing and create clan window appears</li>
+	<li>Wrong errors on requesting new pass when Enter button is pressed</li>
+	<li>Sg gets deployed while typing when the assigned key is pressed</li>
+	<li>Crosshair scale change on shoot</li>
+	<li>End game doesnt have team score</li>
+	<li>Incorrect aspect ratio of weapon class icon in kill log</li>
+</ul>
+</div>
+
+<br>
+
+<button class="collapsible">Version 0.0.12</button>
+<div class="content">
+<p>Release Date: 21/10/2020</p>
+<b><u>Additions</b></u><br>
+<ul>
+	<li>Added Underwater effects (Lp2)</li>
+	<li>New Menu Map</li>
+</ul>
+
+<b><u>Improvements</b></u><br>
+<ul>
+	<li>Converted Particle System to VFX for better performance</li>
+</ul>
+
+<b><u>Bug fixes</b></u><br>
+<ul>
+	<li>Player appears online in chat even when the player is offline</li>
+	<li>Map name update in chat is delayed</li>
+	<li>Invis player in chat</li>
+	<li>Removed beeping sound for Inbox request</li>
+	<li>Passing through few boxes in bunker</li>
+	<li>Broken item icons in shop</li>
+	<li>Timer stuck at 00:01 when match ends</li>
+	<li>Particle bugs related to TAA</li>
+	<li>Pink surface hit effect in CS</li>
+	<li>Functional items in shop, which have "equip" button</li>
+	<li>Duplicate items in shop when shop gets bugged</li>
+	<li>Shop search fixes</li>
+	<li>Shop gets bugged when inventory/shop buttons are spammed</li>
+	<li>Item description going out of screen</li>
+	<li>Killed by, and you killed messages</li>
+	<li>Audio settings dont get saved</li>
+	<li>Weapons having 0 secondary ammo</li>
+	<li>Clan invitations dont work</li>
+</ul>
+</div>
+
+<br>
+
+<button class="collapsible">Version 0.0.11</button>
+<div class="content">
+<p>Release Date: 30/09/2020</p>
+<b><u>Additions</b></u><br>
+<ul>
+	<li>New Main Menu UI</li>
+	<li>New Shop UI</li>
+	<li>Implemented reconnection logic</li>
+	<li>New shop icons for gears</li>
+	<li>Implemented <kbd>Email Address verification</kbd></li>
+	<li>Implemented <kbd>Forgot password</kbd> in server and client</li>
+</ul>
+
+<b><u>Improvements</b></u><br>
+<ul>
+	<li>Slight fps boost</li>
+	<li>SPA materials back to original</li>
+	<li>Smoother & Responsive initial loading (Might take additional load time)
+</ul>
+
+<b><u>Bug fixes</b></u><br>
+<ul>
+	<li><strike>Incorrect popup for buying functional items</strike></li>
+	<li>Fixed advanced settings not being applied for all maps at load</li>
+	<li>Fixed ingame UI positioning & improved performance</li>
+</ul>
+</div>
+
+<br>
+
+<button class="collapsible">Version 0.0.10</button>
+<div class="content">
+<p>Release Date: 23/09/2020</p>
+<b><u>Additions</b></u><br>
+<ul>
+	<li>Added LP2,Warehouse,SPA. LP2 underwater visual is still a WIP</li>
+	<li>Added New sniper crosshair. Added an option to toggle scopes in settings</li>
+	<li>Ammobar HUD will show weapon icons instead of category icon</li>
+	<li>Implemented daily rewards. Daily login rewards will start from 26/09 (saturday)</li>
+	<li>Implemented new password popup</li>
+</ul>
+<b><u>Bug fixes</b></u><br>
+<ul>
+	<li>Fixed a bug where sensitivity slider value wasnt saved</li>
+	<li>Fixed authentication msg popup name to Parabellum</li>
+	<li>Fixed incorrect team scores in TE</li>
+	<li>Fixed crouch bug and smack bug in SPA</li>
+	<li>Fixed SPA Boosters size, force direction and force magnitude</li>
+	<li>Fixed the missing material in SPR</li>
+	<li>[GlobalChat] Fixed tab buttons not working after first click</li>
+	<li>[GlobalChat] Fixed dropdown buttons not disappearing when clicked outside</li>
+	<li>[GlobalChat] Fixed rejoining the same game issue using the button</li>
+	<li>Fixed MG ironsight position</li>
+	<li>Fixed respawn countdown in Training mode</li>
+	<li>Fixed an issue where removed QuickItems icons were not updated after joining a game</li>
+	<li>Fixed an issue where initial AP was not being shown as 100 (default from now)</li>
+	<li>Fixed level restriction slider bug for Max level (80)</li>
+	<li>Fixed an issue where Create Game was clicked twice while making a game which caused incorrect level warning to appear twice</li>
+	<li>Fixed an issue where buying a consumable item yields a popup with "Equip" button</li>
+	<li>Fixed an issue where password was not visible for protected games in Paused Screen</li>
+	<li>Fixed an issue where End game ranking for every player is 1</li>
+	<li>[TabScreen] Fixed blue players listing</li>
+	<li>[TabScreen] Fixed an issue where player name remained in even after they've quit the match</li>
+	<li>[TabScreen] Fixed an issue where names weren't reset after match ended</li>
+	<li>[TabScreen] Fixed an issue where player name appears twice</li>
+	<li>[TabScreen] Fixed an issue in where the screen wasn't updated in Death match</li>
+	<li>Fixed an issue where killer's name isnt visible in kill feed</li>
+	<li>Fixed an issue where Friendly player health bar was visible in End of match screen</li>
+</ul>
+</div>
+
+<br>
+
+<button class="collapsible">Version 0.0.9</button>
+<div class="content">
+<p>Release Date: 21/09/2020</p>
+<ul><li>Non skinned weapons are available for free, and can be equipped directly</li></ul>
+</div>
+<br>
+<button class="collapsible">Version 0.0.8</button>
+<div class="content">
+<p>Release Date: 19/09/2020</p>
+<b><u>Additions</b></u><br>
+<ul>
+	<li>Implemented new <kbd>Enter new name panel</kbd> and <kbd>Name change panel</kbd></li>
+	<li>Implemented new <kbd>Item unlock/reward</kbd> panel</li>
+	<li>Implemented tabscreen for death match. Added a feature to highlight the local players name</li>
+	<li>Implemented mouse sensitivity slider</li>
+</ul>
+
+<b><u>Untested Additions</b></u><br>
+<ul>
+	<li>Implemented Inbox System fully. Although new requests might take time to appear (for reducing the server load)</li>
+	<li>Implemented Clan System</li>
+</ul>
+
+<b><u>Changes</b></u><br>
+<ul><li>Reworked settings page</li></ul>
+
+<b><u>Improvement</b></u><br>
+<ul><li>Improved FPS significantly for lower quality settings</li></ul>
+
+<b><u>Bug fixes</b></u><br>
+<ul>
+	<li>Player character is missing in loadout sometimes (couldnt reproduce yet)</li>
+	<li>Halt message uses <kbd>Uberstrike</kbd> instead of <kbd>Parabellum</kbd></li>
+	<li>Fixed an issue where main screen was visible from inbox</li>
+	<li>Fixed inbox infinite reload</li>
+	<li>Fixed an issue where chat dropdown button click worked only once (needs testing)</li>
+	<li>Fixed an issue where game is stuck after adding a friend</li>
+	<li>Fixed a rare black screen issue at main menu</li>
+	<li>Fixed an alignment bug where Inbox has small gaps on either sides through which main menu can be seen</li>
+	<li>Fixed a bug where in game you get 3x3 sgs pack showing by default</li>
+	<li>Fixed a bug where back button was being overlapped by other buttons at lower resolution</li>
+</ul>
+
+<b><u>Known issues</b></u><br>
+<ul>
+	<li>Dropdown filter by rank and hasnt been implemented in Clan</li>
+	<li>Mouse sensitivity isnt saved</li>
+</ul>
+</div>
+<br><br>
+</div>
+</ul>
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Syndicate</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Akash Darshan
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <script src="contactform/contactform.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
